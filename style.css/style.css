@@ -1,0 +1,32 @@
+body {
+   background: linear-gradient(#191919, rgba(207, 4, 116, 0.6) );
+
+}
+h1 {
+    display:flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size:40px ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25vh;
+    height: 60vmin;
+    gap: 5px;
+}
+.flex-container img{
+
+    height: 80%;
+    flex: 1;
+    object-fit: cover;
+    overflow:hidden;
+    cursor: pointer;
+    border-radius: 20px ;
+    transition: all 0.3s;
+}
+.flex-container img:hover{
+    flex: 4;
+}
